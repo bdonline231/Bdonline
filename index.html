@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>নূরুল ইসলাম — ওয়েব সলিউশন</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container flex between">
+      <h1 class="logo">নূরুল ইসলাম</h1>
+      <button id="menuToggle" class="menu-btn" aria-expanded="false">☰</button>
+      <nav id="mainNav" class="nav">
+        <a href="#home">হোম</a>
+        <a href="#services">সার্ভিস</a>
+        <a href="#about">আমরা</a>
+        <a href="#contact">যোগাযোগ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>প্রফেশনাল ওয়েব সলিউশন — নূরুল ইসলাম</h2>
+        <p>ওয়েব ডিজাইন, ডেভেলপমেন্ট ও টেক সাপোর্টে আমরা আপনার ব্যবসা গঠন করে দিই।</p>
+        <a href="#services" class="btn">সার্ভিস শুনুন</a>
+      </div>
+    </section>
+
+    <section id="services" class="services container">
+      <h3>সার্ভিসসমূহ</h3>
+      <div class="grid">
+        <div class="card"><h4>ওয়েব ডিজাইন</h4><p>রেসপনসিভ ও আকর্ষক ডিজাইন।</p></div>
+        <div class="card"><h4>ওয়েব ডেভেলপমেন্ট</h4><p>বাজেট-মৈত্রী ও স্কেলেবল সলিউশন।</p></div>
+        <div class="card"><h4>সাপোর্ট & মেইনটেন্যান্স</h4><p>দৈনন্দিন হালনাগাদ ও নিরাপত্তা মনিটরিং।</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h3>আমাদের সম্পর্কে</h3>
+      <p>নূরুল ইসলাম একটি ছোট টেক স্টুডিও যা ক্ষুদ্র ও মাঝারি ব্যবসায়ের জন্য কাস্টম ওয়েব সলিউশন তৈরি করে। আমাদের লক্ষ্য — কার্যকর, পরিষ্কার ও নির্ভরযোগ্য সেবা প্রদান করা।</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h3>যোগাযোগ</h3>
+      <form id="contactForm">
+        <label>নাম<input type="text" id="name" required></label>
+        <label>ইমেইল<input type="email" id="email" required></label>
+        <label>বার্তা<textarea id="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn">পাঠান</button>
+        <p id="formMsg" class="form-msg" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 নূরুল ইসলাম — All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
